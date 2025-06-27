@@ -20,11 +20,17 @@ I used a 10k vocab size.
 
 ## Training details
 
-  Trained on a 4MB subset of the TinyStories dataset:
-  
-  Characters processed: 4,155,082
-  Training time: ~75 minutes (10K vocab on M2 Air)
-  Memory usage: ~153MB peak
-  Compression ratio: 1.00x (character-level for this dataset)
+Trained on a 4MB subset of the TinyStories dataset:
+Characters processed: 4,155,082
+Training time: ~75 minutes (10K vocab on M2 Air)
+Memory usage: ~153MB peak
+Compression ratio: 1.00x (character-level for this dataset)
+
+## Outputs
+
+The train.py outputs 2 files:
+
+outputs/tinystories_vocab.txt - the learned vocabulary
+outputs/training_stats.json - training metrics and performance data
 
 
